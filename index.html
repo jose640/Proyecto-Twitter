@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,600&family=Sacramento&display=swap" rel="stylesheet">
+    <title>Proyecto Twitter</title>
+</head>
+<body>
+    <!--INICIO DE PAGINA PRINCIPAL-->
+    <section class="main-page">
+        <!--INICIO DEL LADO IZQUIERDO-->
+        <div class="left">
+            <div class="left-content">
+                <div>
+                    <i class="fas fa-search"></i>
+                    <h3 class="left-content-heading">Encuentra tus intereses</h3>
+                </div>
+                <div>
+                    <i class="fas fa-user-friends"></i>
+                    <h3 class="left-content-heading">Explore de lo qué habla la gente</h3>
+                </div>
+                <div>
+                    <i class="fas fa-comment"></i>
+                    <h3 class="left-content-heading">Únete a la gente</h3>
+                </div>
+            </div>
+        </div>
+        <!--FIN DEL LADO IZQUIERDO-->
+        <!--INICIO DEL LADO DERECHO-->
+        <div class="right">
+                <form class="right-content-form">
+                    <input type="text" class="user-info" placeholder="Teléfono, email, usuario">
+                    <div>
+                        <input type="password" class="password" placeholder="password">
+                        <label>¿Has olvidaste tu contraseña?</label>
+                    </div>
+                    <button type="button" class="btn-top">Iniciar sesión</button>
+                </form>
+                <div class="middle-content">
+                    <i class="fab fa-twitter"></i>
+                    <h1>Explore lo que está sucediendo en el mundo</h1>
+                    <h4>Únase a Twitter hoy</h4>
+                    <button type="button" class="sing-up">Registrate</button>
+                    <button type="button" class="log-in">Iniciar sesión</button>
+                </div>
+        </div>
+        <!--FIN DEL LADO DERECHO-->
+        <!--INICIO DE PIE DE PAGINA-->
+        <footer class="main-page-footer">
+            <ul>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Terminos</a></li>
+                <li><a href="#">Apps</a></li>
+                <li><a href="#">Ajustes</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Estado</a></li>
+                <li><a href="#">Politicas de privacidad</a></li>
+                <li><a href="#">Marca</a></li>
+                <li><a href="#">Desarrolladores</a></li>
+                <li><a href="#">&copy; 2021 Twitter</a></li>
+            </ul>           
+                
+        </footer>
+        <!--FIN DE PIE DE PAGINA-->
+    </section>
+    <!--FIN DE PAGINA PRINCIPAL-->
+
+    <!--PAGINA DE INICIO DE SESION-->
+    <section class="login-page">
+        <!--INICIO DE NAVEGACION-->
+        <nav class="login-page-nav">
+            <ul>
+                <li class="brand">
+                    <a href="#"><i class="fab fa-twitter"></i>Home</a>
+                </li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Idioma: Español</a></li>
+            </ul>
+        </nav>
+        <!--FIN DE INICIO DE NAVEGACION-->
+
+        <!--INICIO DEL LOGIN-->
+        <div class="login">
+            <div class="login-content">
+                <h2>Iniciar sesion en Twitter</h2>
+                <form class="login-form">
+                    <input type="text" placeholder="email, telefono usuario" />
+                    <input type="password" placeholder="password" />
+                    <div>
+                        <button type="button" class="login-form-btn">Iniciar Sesion</button>
+                        <input type="checkbox" class="login-form-checkbox" id="check">
+                        <label for="check">Recordar</label>
+                        <a href="#">Olvido su contraseña?</a>
+                    </div>
+                </form>
+            </div>
+            <footer class="login-footer">
+                <p>Nuevo en Twitter?
+                    <a href="#">Registrate Ahora</a>
+                </p>
+                <p>Ya esta usando Twitter via mwnsaje de texto
+                    <a href="#">Activa tu Cuenta</a>
+                </p>
+            </footer>
+        </div>
+        <!--FIN DEL LOGIN-->
+    </section>
+    <!--FIN DE PAGINA DE INICIO DE SESION-->
+</body>
+</html>
